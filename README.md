@@ -3,7 +3,7 @@ Defining enumerations in C++
 
 An enumeration is a user-defined type whose value is restricted to one of several explicitly named constants(enumerators). Enumeration are defined using keyword: enum.
 ```
-enum seasons { spring, summer, autumn, winter };
+enum seasons {spring, summer, autumn, winter};
 ```
 This code is a enum declaration. After declaration, you can define variable of type seasons. And this variable of type seasons can only have one of those 4 values. For example:
 ```
@@ -30,7 +30,7 @@ One very important thing to remember is that, spring, summer etc are not variabl
 #include <iostream> 
 using namespace std; 
 
-enum seasons { spring, summer, autumn, winter }; 
+enum seasons {spring, summer, autumn, winter}; 
 
 int main() { 
   seasons s; 
@@ -63,7 +63,7 @@ You can change the default value during enumeration declaration(after declaratio
 #include <iostream> 
 using namespace std;
 
-enum seasons { spring = 34, summer = 4, autumn = 9, winter = 32}; 
+enum seasons {spring = 34, summer = 4, autumn = 9, winter = 32}; 
 
 int main() { 
   seasons s; 
