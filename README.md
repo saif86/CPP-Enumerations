@@ -50,6 +50,7 @@ int main() {
   system("pause"); 
   return 0; 
 }
+```
 ### Output
 ```
 spring = 0
@@ -74,6 +75,7 @@ int main() {
   system("pause"); 
   return 0; 
 }
+```
 ### Output
 ```
 summer = 4
