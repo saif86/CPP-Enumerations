@@ -10,7 +10,7 @@ This code is a enum declaration. After declaration, you can define variable of t
 #include <iostream> 
 using namespace std; 
 
-enum seasons {spring, summer, autumn, winter }; 
+enum seasons {spring, summer, autumn, winter}; 
 
 int main() { 
   seasons s; 
