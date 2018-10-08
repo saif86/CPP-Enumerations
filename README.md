@@ -20,7 +20,7 @@ int main() {
   return 0; 
 }
 ```
-In this program, an enum type seasons is declared with 4 enumerators (spring, summer, autumn, winter). Then, inside main() function, a variable s of type seasons is defined. This variable s can only store any one of four values (spring, summer, autumn, winter).
+In this program, an enum type seasons is declared with 4 enumerators (spring, summer, autumn, winter). Then, inside main( ) function, a variable *s* of type seasons is defined. This variable s can only store any one of four values (spring, summer, autumn, winter).
 
 By default, the value of first enumerator is 0, second is 1 and so in. In this program, spring is equal to 0, summer is equal to 1 and autumn is 2 and winter is 3.
 
