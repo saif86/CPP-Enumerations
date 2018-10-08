@@ -58,7 +58,7 @@ summer = 1
 autumn = 2
 winter = 3
 ```
-You can change the default value during enumeration declaration(after declaration, you cannot change it) and give them another value. Consider this example:
+You can change the default value during enumeration declaration(after declaration, you cannot change it or cannot assign another value. Consider this example:
 ### Example 2: C++ Enumeration
 ```
 #include <iostream> 
