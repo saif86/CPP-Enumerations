@@ -1,14 +1,25 @@
+/**
+* @file Example2_Enumerations.cpp
+*
+* @brief C++ Program to declare enumerations with user defined values
+*
+* @author Saif Ullah Ijaz
+*
+*/
+
 #include <iostream> 
 using namespace std;
 
-enum seasons { spring = 34, summer = 4, autumn = 9, winter = 32 };
+enum Seasons { SPRING = 34, SUMMER = 4, AUTUMN = 9, WINTER = 32 };
 
+// function main begins program execution
 int main() {
-	seasons s;
+	Seasons s;
 
-	s = summer;
+	s = SUMMER;
 	cout << "summer = " << s << endl;
 
 	system("pause");
 	return 0;
 }
+// end main 
