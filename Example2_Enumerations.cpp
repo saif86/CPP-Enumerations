@@ -10,7 +10,8 @@
 #include <iostream> 
 using namespace std;
 
-enum Seasons { SPRING = 34, SUMMER = 4, AUTUMN = 9, WINTER = 32 };
+enum Seasons { SPRING = 34, SUMMER = 4, AUTUMN = 9, WINTER = 4 };
+// NOTE: repeated values are allowed
 
 // function main begins program execution
 int main() {
