@@ -1,21 +1,31 @@
+/**
+* @file Example1_Enumerations.cpp
+*
+* @brief C++ Program to declare and define enumerations
+*
+* @author Saif Ullah Ijaz
+*
+*/
+
 #include <iostream> 
 using namespace std;
 
-enum seasons { spring, summer, autumn, winter };
+enum Seasons { SPRING, SUMMER, AUTUMN, WINTER };
 
+// function main begins program execution
 int main() {
-	seasons s;
+	Seasons s;
 
-	s = spring;
+	s = SPRING;
 	cout << "spring = " << s << endl;
 
-	s = summer;
+	s = SUMMER;
 	cout << "summer = " << s << endl;
 
-	s = autumn;
+	s = AUTUMN;
 	cout << "autumn = " << s << endl;
 
-	s = winter;
+	s = WINTER;
 	cout << "winter = " << s << endl;
 
 	system("pause");
